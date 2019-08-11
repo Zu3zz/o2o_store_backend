@@ -1,0 +1,16 @@
+package com.zth.o2o;
+
+import org.junit.runner.RunWith;
+import org.springframework.test.context.ContextConfiguration;
+import org.springframework.test.context.junit4.SpringJUnit4ClassRunner;
+
+/**
+ * Author: 3zZ.
+ * Date: 2019-08-11 22:36
+ * 配置spring和junit整合，junit启动时加载springIOC容器 spring-test,junit
+ */
+@RunWith(SpringJUnit4ClassRunner.class)
+// 告诉junit spring配置文件
+@ContextConfiguration({"classpath:spring/spring-dao.xml"})
+public class BasicTest {
+}
