@@ -7,16 +7,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="276e5efd-0139-4065-80aa-803f130d0dd8" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/resources/logback.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zth/o2o/dao/ShopDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/mapper/ShopDao.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/test/java/com/zth/o2o/dao/ShopDaoTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/ShopDao.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/zth/o2o/web/superadmin/AreaController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/zth/o2o/web/superadmin/AreaController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/zth/o2o/web/superadmin/AreaController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/zth/o2o/web/superadmin/AreaController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/o2o/WEB-INF/classes/com/zth/o2o/web/superadmin/AreaController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/o2o/WEB-INF/classes/com/zth/o2o/web/superadmin/AreaController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/META-INF/o2o.kotlin_module" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/zth/o2o/BasicTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/zth/o2o/dao/AreaDaoTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/zth/o2o/service/AreaServiceTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -26,6 +22,20 @@
   </component>
   <component name="CodeStyleSettingsInfer">
     <option name="done" value="true" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
   </component>
   <component name="DefaultGradleProjectSettings">
     <option name="isMigrated" value="true" />
@@ -37,11 +47,12 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Tag Library Descriptor" />
-        <option value="FxmlFile" />
-        <option value="Interface" />
-        <option value="Class" />
         <option value="spring-beans.schema" />
+        <option value="Interface" />
+        <option value="FxmlFile" />
+        <option value="Tag Library Descriptor" />
+        <option value="Kotlin Class" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -70,6 +81,7 @@
     <ConfirmationsSetting value="2" id="Add" />
   </component>
   <component name="PropertiesComponent">
+    <property name="GO_FMT" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="add_unversioned_files" value="true" />
@@ -78,10 +90,10 @@
     <property name="go.import.settings.migrated" value="true" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="project.structure.last.edited" value="Artifacts" />
+    <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.21724138" />
-    <property name="settings.editor.selected.configurable" value="project.propCompiler" />
+    <property name="settings.editor.selected.configurable" value="preferences.keymap" />
   </component>
   <component name="RecentsManager">
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
@@ -104,22 +116,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Tomcat Server.Tomcat8.5">
-    <configuration name="AreaDaoTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="o2o" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="java.com.zth.o2o.dao.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="java.com.zth.o2o.dao" />
-      <option name="MAIN_CLASS_NAME" value="java.com.zth.o2o.dao.AreaDaoTest" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="JUnit.ShopDaoTest">
     <configuration name="AreaDaoTest.testQueryArea (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="o2o" />
       <extension name="coverage">
@@ -130,22 +127,6 @@
       </extension>
       <option name="PACKAGE_NAME" value="com.zth.o2o.dao" />
       <option name="MAIN_CLASS_NAME" value="com.zth.o2o.dao.AreaDaoTest" />
-      <option name="METHOD_NAME" value="testQueryArea" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="AreaDaoTest.testQueryArea" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="o2o" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="java.com.zth.o2o.dao.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="java.com.zth.o2o.dao" />
-      <option name="MAIN_CLASS_NAME" value="java.com.zth.o2o.dao.AreaDaoTest" />
       <option name="METHOD_NAME" value="testQueryArea" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
@@ -163,6 +144,53 @@
       <option name="PACKAGE_NAME" value="com.zth.o2o.service" />
       <option name="MAIN_CLASS_NAME" value="com.zth.o2o.service.AreaServiceTest" />
       <option name="METHOD_NAME" value="testGetAreaList" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ShopDaoTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="o2o" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.zth.o2o.dao.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.zth.o2o.dao" />
+      <option name="MAIN_CLASS_NAME" value="com.zth.o2o.dao.ShopDaoTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ShopDaoTest.testInsertShop (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="o2o" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.zth.o2o.dao.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.zth.o2o.dao" />
+      <option name="MAIN_CLASS_NAME" value="com.zth.o2o.dao.ShopDaoTest" />
+      <option name="METHOD_NAME" value="testInsertShop" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ShopDaoTest.testInsertShop" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="o2o" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="java.com.zth.o2o.dao.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="java.com.zth.o2o.dao" />
+      <option name="MAIN_CLASS_NAME" value="java.com.zth.o2o.dao.ShopDaoTest" />
+      <option name="METHOD_NAME" value="testInsertShop" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -242,18 +270,20 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="JUnit.AreaDaoTest" />
-      <item itemvalue="JUnit.AreaDaoTest.testQueryArea" />
       <item itemvalue="JUnit.AreaDaoTest.testQueryArea (1)" />
       <item itemvalue="JUnit.AreaServiceTest.testGetAreaList" />
       <item itemvalue="Tomcat Server.Tomcat8.5" />
+      <item itemvalue="JUnit.ShopDaoTest.testInsertShop" />
+      <item itemvalue="JUnit.ShopDaoTest.testInsertShop (1)" />
+      <item itemvalue="JUnit.ShopDaoTest" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.AreaServiceTest.testGetAreaList" />
+        <item itemvalue="JUnit.ShopDaoTest" />
         <item itemvalue="JUnit.AreaDaoTest.testQueryArea (1)" />
-        <item itemvalue="JUnit.AreaDaoTest.testQueryArea" />
-        <item itemvalue="JUnit.AreaDaoTest" />
+        <item itemvalue="JUnit.ShopDaoTest.testInsertShop (1)" />
+        <item itemvalue="JUnit.ShopDaoTest.testInsertShop" />
+        <item itemvalue="JUnit.AreaServiceTest.testGetAreaList" />
       </list>
     </recent_temporary>
   </component>
@@ -278,41 +308,17 @@
       <workItem from="1565942986182" duration="6069000" />
       <workItem from="1567590734985" duration="1224000" />
       <workItem from="1567593203316" duration="83000" />
-      <workItem from="1569750405962" duration="2700000" />
+      <workItem from="1569750405962" duration="8019000" />
     </task>
+    <task id="LOCAL-00001" summary="logback add finished">
+      <created>1569753620862</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1569753620862</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
-  </component>
-  <component name="TestHistory">
-    <history-entry file="AreaDaoTest_testQueryArea_(1) - 2019.08.11 at 22h 39m 54s.xml">
-      <configuration name="AreaDaoTest.testQueryArea (1)" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="AreaDaoTest_testQueryArea_(1) - 2019.08.11 at 22h 40m 36s.xml">
-      <configuration name="AreaDaoTest.testQueryArea (1)" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="AreaDaoTest_testQueryArea_(1) - 2019.08.11 at 22h 41m 08s.xml">
-      <configuration name="AreaDaoTest.testQueryArea (1)" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="AreaDaoTest_testQueryArea_(1) - 2019.08.11 at 22h 53m 07s.xml">
-      <configuration name="AreaDaoTest.testQueryArea (1)" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="AreaDaoTest_testQueryArea_(1) - 2019.08.11 at 22h 54m 21s.xml">
-      <configuration name="AreaDaoTest.testQueryArea (1)" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="AreaDaoTest_testQueryArea_(1) - 2019.08.16 at 16h 24m 05s.xml">
-      <configuration name="AreaDaoTest.testQueryArea (1)" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="AreaDaoTest_testQueryArea_(1) - 2019.08.16 at 16h 42m 27s.xml">
-      <configuration name="AreaDaoTest.testQueryArea (1)" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="AreaDaoTest_testQueryArea_(1) - 2019.08.16 at 16h 46m 26s.xml">
-      <configuration name="AreaDaoTest.testQueryArea (1)" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="AreaServiceTest_testGetAreaList - 2019.08.16 at 22h 38m 19s.xml">
-      <configuration name="AreaServiceTest.testGetAreaList" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="AreaServiceTest_testGetAreaList - 2019.08.16 at 22h 38m 44s.xml">
-      <configuration name="AreaServiceTest.testGetAreaList" configurationId="JUnit" />
-    </history-entry>
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -337,80 +343,8 @@
       </map>
     </option>
   </component>
-  <component name="masterDetails">
-    <states>
-      <state key="ArtifactsStructureConfigurable.UI">
-        <settings>
-          <artifact-editor />
-          <last-edited>o2o:war exploded</last-edited>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.21724138" />
-                <option value="0.5" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="FacetStructureConfigurable.UI">
-        <settings>
-          <last-edited>Web</last-edited>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.21724138" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="GlobalLibrariesConfigurable.UI">
-        <settings>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="JdkListConfigurable.UI">
-        <settings>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="ModuleStructureConfigurable.UI">
-        <settings>
-          <last-edited>o2o</last-edited>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.21724138" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="ProjectLibrariesConfigurable.UI">
-        <settings>
-          <last-edited>Maven: junit:junit:4.11</last-edited>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.21724138" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-    </states>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="logback add finished" />
+    <option name="LAST_COMMIT_MESSAGE" value="logback add finished" />
   </component>
 </project>
